@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets\css\styles.css" rel="stylesheet">
+
+        <!-- Animaciones CSS CDN -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    <title>Dewar's porfolio</title>
+    
+</head>
+<body>
+    <!---Barra navegación-->
+    <nav>
+        <h1>Montse Dewar</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!--Sección Hero-->
+        <section class="hero" id="about">
+            <img src="assets\image\Montse.jpeg" alt="Me" class="hero-image" loading="lazy">
+            <div class="bio animate__animated animate__shakeX">
+                <h2 class="bio-title">About Me</h2>
+                <p class="bio-text">My name is Montse, I graduated in Psychology, most of my career years I managed and analyzed data, and currently I'm really liking the field of human-computer/technology interaction.</p>
+            </div>
+        </section>
+
+    <!--Sobre mi-->
+        <section class="more-about">
+            <h2>More about me</h2>
+            <p>I love creative mediums such as: photography, drawing, painting, embroidery and sculpting. I've been drawing since I was five (or youger, even), and never stopped! The photography came later into my life and, like most creative people, curiosity of other mediums just comes naturally.</p>
+            <p>During four and a half my five-year degree studies I was part of a research laboratory on Psychophisiology. Here I had the opportunity to play the roll of a teacher, participate in two science congresses, and fell inlove with Excell... I'm not joking.</p>
+            <p>My first experience with coding and web development was in my highschool years. It was part of a tech subject course that I really loved. However, I also loved Psychology, so it has taken me some years to retake this path.</p>
+        </section>
+
+    <!--Sección de Habilidades-->
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My top skills</h2>
+            <div class="skills-wrapper">
+                <div class="first-set" animate__animated animate__pulse>
+                    <img src="assets\icons\icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets\icons\icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets\icons\icons8-git.svg" alt="" loading="lazy" class="icon icon-card">
+                </div>
+                <div class="second-set" animate__animated animate__pulse>
+                    <img src="assets\icons\icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets\icons\icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets\icons\icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card">
+                </div>
+            </div>
+        </section>
+
+    <!--Sección Proyectos-->
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Some of my recent projects</h2>
+            <div class="projects-container">
+                <div class="project-container project-card">
+                    <img src="assets\image\ghiblirest.png" alt="" loading="lazy" class="project-pic">
+                    <h3 class="project-title">Ghiblirest</h3>
+                    <p class="project-details">This is pretty much the Pinterest's interface, however, its content is exclusively related to Ghibli Studios. 
+                        <br>This project is still be worked on, and the idea is that you can interact with the images to learn more about each film depicted in those pictures.</p>
+                    <a href="https://ghiblirest.vercel.app/" target="_blank" class="project-link">Check it out!</a>
+                </div>
+                <div class="project-container project-card">
+                    <img src="assets\image\lichisgarden.png" alt="" loading="lazy" class="project-pic">
+                    <h3 class="project-title">Lichis' Garden</h3>
+                    <p class="project-details">One of my first projects on Visual Studio Code! This page is about the tomatoes Lichis (my partner's granma) has been working on this season. 
+                        <br>The idea for this was to get a grasp on CSS and HTML on action. And thus, here we have a basic desing built arround some pictures I took of Lichis' Garden.</p>
+                    <a href="https://lichisgarden.vercel.app/" target="_blank" class="project-link">Check it out!</a>
+                </div>
+            </div>
+        </section>
+
+    <!--Sección Contacto-->
+
+    <!--Sección Redes Sociales-->
+        <div class="socials">
+            <a href="https://github.com/MontseDewar" target="_blank"><img src="assets\icons\github.gif" alt="GitHub" loading="lazy" class="sicon"></a>
+
+            <a href="https://www.linkedin.com/in/montsedewarg/" target="_blank"><img src="assets\icons\linkedin.gif" alt="LinkedIn" loading="lazy" class="sicon"></a>
+
+            <a href="https://www.instagram.com/montse_dewar?igsh=MXUxbWx4ajgwemR0Nw==" target="_blank"><img src="assets\icons\instagram.gif" alt="Instagram" loading="lazy" class="sicon"></a>
+        </div>
+
+        <!--Scroll button-->
+        <i class="scroll-up" id="scroll-up">
+            <img src="assets\icons\buttonup.gif" class="sicon up-arrow">
+        </i>
+
+    <!--Sección Footer-->
+        <footer>
+            <p>Built with &#x2661; by <a href="https://www.linkedin.com/in/montsedewarg/" target="_blank">Montse Dewar</a></p>
+        </footer>
+
+         <!-- Website scripts -->
+        <script src="assets/js/app.js"></script>
+
+         <!-- Ion icons scripts -->
+        <script 
+            type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script 
+            nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    
+</body>
+</html>
